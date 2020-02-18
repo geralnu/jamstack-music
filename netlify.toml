@@ -1,0 +1,8 @@
+[build]
+command = "npm run generate"
+functions = "./functions"
+publish = "dist"
+
+[dev]
+port = 3000
+command = "npm run dev"
